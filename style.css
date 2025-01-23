@@ -1,0 +1,143 @@
+.logo-mario {
+    height: 200px;
+    margin-left: 50px;
+}
+
+.botao-entre-contato {
+    color: white;
+    background-color: #C51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.botao-entre-contato:hover {
+    background-color: lime;
+    transition: 0.5s ease-in-out;
+}
+
+.mario-luigi {
+    height: 500px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+}
+
+.caixa-um {
+    width: 50%;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    width: 100vw;
+}
+
+.mascara {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+
+}
+
+.texto {
+    color: white;
+    font-size: 20px;
+}
+
+.link-whats img {
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.icon {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.icon img {
+    height: 50px;
+}
+
+.icon a {
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.icon a:hover {
+    color: #C51111;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.fale-conosco {
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -316px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 1s ease-in-out;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1s solid gray;
+    padding-left: 5px;
+    outline-color: #18D80F;
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1s solid gray;
+    padding-left: 5px;
+    outline-color: #18D80F;
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
+}
+
+/*
+top: 30%;
+    left: -316px;
+
+    top: 30%;
+    left: 50%;
+    tras
